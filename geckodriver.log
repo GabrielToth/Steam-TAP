@@ -869,3 +869,158 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 [2021-06-06T05:28:02Z ERROR xulstore::persist] removeDocument error: unavailable
+1622959773207	geckodriver	INFO	Listening on 127.0.0.1:52299
+1622959776190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileI0Y9nb"
+1622959776573	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileI0Y9nb\\search.json.mozlz4", (void 0)))
+1622959778629	Marionette	INFO	Listening on port 52308
+1622959778895	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://community.cloudflare.steamstatic.com/public/javascript/promo/stickers.js?v=rh5S8QOZCvoG&l=brazilian&_cdn=cloudflare, line 93: unreachable code after return statement
+1622959940212	Marionette	INFO	Stopped listening on port 52308
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[2021-06-06T06:12:20Z ERROR xulstore::persist] removeDocument error: unavailable
+\\Local\\Temp\\rust_mozprofilePvkDer"
+1622959892406	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofilePvkDer\\search.json.mozlz4", (void 0)))
+1622959893938	Marionette	INFO	Listening on port 52471
+1622959894046	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 2536, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1622959941267	Marionette	INFO	Stopped listening on port 52471
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622960010216	geckodriver	INFO	Listening on 127.0.0.1:52589
+1622960013172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileSUPLkf"
+1622960013581	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileSUPLkf\\search.json.mozlz4", (void 0)))
+1622960015613	Marionette	INFO	Listening on port 52598
+1622960015875	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622960051366	Marionette	INFO	Stopped listening on port 52591622960051685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileKPQsXD"
+1622960052093	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileKPQsXD\\search.json.mozlz4", (void 0)))
+1622960054024	Marionette	INFO	Listening on port 52688
+1622960054391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622960809718	Marionette	INFO	Stopped listening on port 52688
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[2021-06-06T06:26:49Z ERROR xulstore::persist] removeDocument error: unavailable
+\\Local\\Temp\\rust_mozprofileIfIN2n"
+1622960116771	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileIfIN2n\\search.json.mozlz4", (void 0)))
+1622960118356	Marionette	INFO	Listening on port 52793
+1622960118451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622960141399	Marionette	INFO	Stopped listening on port 52793
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[2021-06-06T06:15:41Z ERROR xulstore::persist] removeDocument error: unavailable
+1622960803175	geckodriver	INFO	Listening on 127.0.0.1:53367
+1622960806153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofilexdjPCc"
+1622960806541	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofilexdjPCc\\search.json.mozlz4", (void 0)))
+1622960808290	Marionette	INFO	Listening on port 53377
+1622960808341	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622960826385	Marionette	INFO	Stopped listening on port 53377
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622961232638	geckodriver	INFO	Listening on 127.0.0.1:53920
+1622961235554	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileNgH4tY"
+1622961236009	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileNgH4tY\\search.json.mozlz4", (void 0)))
+1622961238614	Marionette	INFO	Listening on port 53928
+1622961238754	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622961315887	Marionette	INFO	Stopped listening on port 53928
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622961753998	geckodriver	INFO	Listening on 127.0.0.1:54285
+1622961756950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileFaG77P"
+1622961757379	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileFaG77P\\search.json.mozlz4", (void 0)))
+1622961759484	Marionette	INFO	Listening on port 54294
+1622961759645	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622961798386	Marionette	INFO	Stopped listening on port 54294
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622961812613	geckodriver	INFO	Listening on 127.0.0.1:54382
+1622961815576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofilegsil6q"
+1622961815973	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofilegsil6q\\search.json.mozlz4", (void 0)))
+1622961817853	Marionette	INFO	Listening on port 54391
+1622961818308	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622961840847	Marionette	INFO	Stopped listening on port 54391
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[2021-06-06T06:44:01Z ERROR xulstore::persist] removeDocument error: unavailable
+1622962250586	geckodriver	INFO	Listening on 127.0.0.1:54695
+1622962253550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofile3kH3Et"
+1622962253950	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofile3kH3Et\\search.json.mozlz4", (void 0)))
+1622962255824	Marionette	INFO	Listening on port 54704
+1622962256241	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622962274002	Marionette	INFO	Stopped listening on port 54704
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622962386792	geckodriver	INFO	Listening on 127.0.0.1:54841
+1622962389748	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileGEdzST"
+1622962390181	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileGEdzST\\search.json.mozlz4", (void 0)))
+1622962392150	Marionette	INFO	Listening on port 54852
+1622962392438	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622962449013	Marionette	INFO	Stopped listening on port 54852
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileKp1D4L"
+1622962444218	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileKp1D4L\\search.json.mozlz4", (void 0)))
+1622962445842	Marionette	INFO	Listening on port 54948
+1622962445919	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622962464320	Marionette	INFO	Stopped listening on port 54948
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[2021-06-06T06:54:24Z ERROR xulstore::persist] removeDocument error: unavailable
+1622962482517	geckodriver	INFO	Listening on 127.0.0.1:55025
+1622962485491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileDLU7hV"
+1622962485891	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileDLU7hV\\search.json.mozlz4", (void 0)))
+1622962487790	Marionette	INFO	Listening on port 55034
+1622962488191	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622962506404	Marionette	INFO	Stopped listening on port 55034
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[2021-06-06T06:55:06Z ERROR xulstore::persist] removeDocument error: unavailable
+1622962731357	geckodriver	INFO	Listening on 127.0.0.1:55227
+1622962734337	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileJUZ72l"
+1622962734735	Marionette	INFO	Marionette enabled
+console.warn: "[fluent] Missing translations in pt-BR: menu-view-repair-text-encoding."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Pentest\\AppData\\Local\\Temp\\rust_mozprofileJUZ72l\\search.json.mozlz4", (void 0)))
+1622962736629	Marionette	INFO	Listening on port 55236
+1622962737040	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622962744771	Marionette	INFO	Stopped listening on port 55236
+[2021-06-06T06:59:04Z ERROR xulstore::persist] removeDocument error: unavailable
