@@ -17,6 +17,14 @@ import openpyxl
     Desta forma aumentando o desempenho da aplicação e otimizando ela como um todo.
 """
 
+
+
+
+
+
+
+
+######
 url = "https://steamcommunity.com/market/search?q=&category_730_ItemSet%5B%5D=any&category_730_ProPlayer%5B%5D=any&category_730_StickerCapsule%5B%5D=any&category_730_TournamentTeam%5B%5D=any&category_730_Weapon%5B%5D=any&category_730_Type%5B%5D=tag_CSGO_Type_Pistol&category_730_Type%5B%5D=tag_CSGO_Type_SMG&category_730_Type%5B%5D=tag_CSGO_Type_Rifle&category_730_Type%5B%5D=tag_CSGO_Type_SniperRifle&category_730_Type%5B%5D=tag_CSGO_Type_Shotgun&category_730_Type%5B%5D=tag_CSGO_Type_Machinegun&category_730_Type%5B%5D=tag_CSGO_Type_Knife&category_730_Type%5B%5D=tag_Type_Hands&appid=730#p1_name_asc"
 
 option = Options()
@@ -27,7 +35,8 @@ driver.get(url)
 
 #Pagina atual até a ultima pagina
 
-pages = int(driver.find_element_by_xpath('//*[@id="searchResults_links"]/span[7]').text) - 1021
+pages = int(driver.find_element_by_xpath('//*[@id="searchResults_links"]/span[7]').text)
+pages = pages - (pages - 2)
 page_active = int(driver.find_element_by_xpath('//*[@id="searchResults_links"]/*[@class="market_paging_pagelink active"]').text)
 time.sleep(5)
 type = []
@@ -39,8 +48,8 @@ value = []
 
 #Passar as páginas e pegar o conteúdo
 print(page_active, pages)
-while page_active < pages:
-    time.sleep(5)
+skin_counter = 0
+while page_active <= pages:
     print('-='*15, page_active, '=-'*15)
     
     
@@ -103,22 +112,36 @@ while page_active < pages:
         floats.append(weapon_float_name)
         value.append(weapon_value)
         i += 1
-
+    skin_counter += i
+    
+    #Steam Access Delay 
+    last_page = page_active
     driver.find_element_by_xpath('//*[@id="searchResults_btn_next"]').click()
+    time.sleep(5)
     page_active = int(driver.find_element_by_xpath('//*[@id="searchResults_links"]/*[@class="market_paging_pagelink active"]').text)
-    
-    
-    
-print('Type:{}\nName{}\nStattrack{}\nSouvenir{}\nFloat{}\nValue{}'.format(type, name, stattrak, souvenir, floats, value))
+    t = 0
+    while page_active == last_page:
+        time.sleep(1)
+        page_active = int(driver.find_element_by_xpath('//*[@id="searchResults_links"]/*[@class="market_paging_pagelink active"]').text)
+        if t == 6:
+            time.sleep(60)
+            t = 0
+        t += 1
+
 all_items_list = {'type': type, 'name': name, 'stattrack': stattrak, 'souvenir': souvenir, 'floats': floats, 'value': value}
 tabless = pd.DataFrame(data=all_items_list)
 print(tabless)
 wb =  openpyxl.load_workbook(r'C:\Users\Pentest\Documents\DB Items.xlsx')
 sheet = wb.sheetnames
 print(sheet)
+for worksheets in wb.sheetnames:
 
-for j in range(1, i):
-    print('oi')
+    worksheet = wb[worksheets]
+    i = 0
+    for k, v in all_items_list.items():
+        i += 1
+        print(i, '-', k, v)
+
 
 wb.save(r'C:\Users\Pentest\Documents\DB Items.xlsx')
 time.sleep(5)
