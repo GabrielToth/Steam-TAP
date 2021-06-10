@@ -1,31 +1,15 @@
-from os import name
-import string
-import time
+import pandas as pd
 from openpyxl.reader.excel import load_workbook
 from openpyxl.styles.fills import Fill
 from openpyxl.workbook import workbook
 from openpyxl.workbook.workbook import Workbook
-import requests
-import pandas as pd
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.utils import find_connectable_ip
 from selenium.webdriver.firefox.options import Options
 from openpyxl import Workbook
 from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font, Color
 from openpyxl.styles import colors
-
 """
-    Observação: Verificar possibilidade de tranformar num sistema assicrono, desta forma transformando todas as atualizações em tempo real baseado na mudança de cada item em cada pagína.
-    Maybe uma possibilidade disso ocorrer também seria listando as pages pela quantidade de page_active apartir do momento que a steam utiliza em sua URL a terminação "p1_name_asc" p2, p3...
-    Desta forma aumentando o desempenho da aplicação e otimizando ela como um todo.
-"""
-
-
-
-######
-url = "https://steamcommunity.com/market/search?q=&category_730_ItemSet%5B%5D=any&category_730_ProPlayer%5B%5D=any&category_730_StickerCapsule%5B%5D=any&category_730_TournamentTeam%5B%5D=any&category_730_Weapon%5B%5D=any&category_730_Type%5B%5D=tag_CSGO_Type_Pistol&category_730_Type%5B%5D=tag_CSGO_Type_SMG&category_730_Type%5B%5D=tag_CSGO_Type_Rifle&category_730_Type%5B%5D=tag_CSGO_Type_SniperRifle&category_730_Type%5B%5D=tag_CSGO_Type_Shotgun&category_730_Type%5B%5D=tag_CSGO_Type_Machinegun&category_730_Type%5B%5D=tag_CSGO_Type_Knife&category_730_Type%5B%5D=tag_Type_Hands&appid=730#p1_name_asc"
-
 option = Options()
 option.headless = False
 driver = webdriver.Firefox(options=option)
@@ -189,4 +173,4 @@ for worksheets in wb.sheetnames:
 wb.save(r'C:\Users\Pentest\Documents\DB Items.xlsx')
 time.sleep(5)
 driver.quit()
-
+"""
